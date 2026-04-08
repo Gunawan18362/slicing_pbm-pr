@@ -25,7 +25,7 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       backgroundColor: const Color(0xFF0B0F14),
       
-      // 🔝 APP BAR
+      //APP BAR
       appBar: AppBar(
         backgroundColor: Colors.transparent,
         elevation: 0,
@@ -48,12 +48,12 @@ class HomePage extends StatelessWidget {
         ],
       ),
 
-      // 📦 BODY
+      //BODY
       body: Column(
         children: [
           const SizedBox(height: 20),
 
-          // 🔲 MENU GRID
+          //MENU GRID
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 16),
             child: Row(
@@ -85,7 +85,7 @@ class HomePage extends StatelessWidget {
 
           const SizedBox(height: 30),
 
-          // 📝 TEXT
+          //TEXT
           const Text(
             "Tambahkan kalender",
             style: TextStyle(
@@ -96,7 +96,7 @@ class HomePage extends StatelessWidget {
         ],
       ),
 
-      // 🔻 BOTTOM NAV
+      //BOTTOM NAV
       bottomNavigationBar: BottomNavigationBar(
         backgroundColor: const Color(0xFF11161C),
         selectedItemColor: Colors.blue,
@@ -128,8 +128,7 @@ class HomePage extends StatelessWidget {
       ),
     );
   }
-}
-class MenuItem extends StatelessWidget {
+}class MenuItem extends StatelessWidget {
   final IconData icon;
   final String label;
   final Color color;
