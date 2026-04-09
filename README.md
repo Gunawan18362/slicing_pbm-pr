@@ -1,4 +1,4 @@
-![Home UI](SS_Output_Beranda_Zoom/Beranda_Zoom_PBM.png)
+![Home UI](screenshot/home.png)
 Slicing UI Flutter - Beranda Zoom Style
 
 Project ini merupakan hasil slicing UI mobile menggunakan Flutter (Dart) yang meniru tampilan halaman beranda aplikasi Zoom.
